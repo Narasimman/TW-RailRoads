@@ -1,0 +1,1 @@
+package com.thoughtworks.railroad.exception;public class WrongInputException extends RuntimeException{  public WrongInputException(String command) {    super("WRONG INPUT: " + command);  }}

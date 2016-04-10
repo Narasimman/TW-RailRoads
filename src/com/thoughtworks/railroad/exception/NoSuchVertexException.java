@@ -1,0 +1,1 @@
+package com.thoughtworks.railroad.exception;public class NoSuchVertexException extends RuntimeException {  public NoSuchVertexException(String node) {    super("NO SUCH NODE <" + node + ">");  }}
