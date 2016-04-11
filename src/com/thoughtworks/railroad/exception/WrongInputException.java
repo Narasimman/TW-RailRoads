@@ -1,1 +1,1 @@
-package com.thoughtworks.railroad.exception;public class WrongInputException extends RuntimeException{  private static final long serialVersionUID = 1L;  public WrongInputException(String command) {    super("WRONG INPUT: " + command);  }}
+package com.thoughtworks.railroad.exception;public class WrongInputException extends RuntimeException {  private static final long serialVersionUID = 1L;  public WrongInputException(String command) {    super("WRONG INPUT: " + command);  }}

@@ -1,0 +1,1 @@
+package com.thoughtworks.railroad.model.condition;import com.thoughtworks.railroad.model.Path;public interface Condition {  public boolean pass(Path path);}

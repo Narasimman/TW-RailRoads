@@ -1,0 +1,1 @@
+package com.thoughtworks.railroad.model.condition;import com.thoughtworks.railroad.model.Path;public class ExactCondition implements Condition {  private final int max;  public ExactCondition(int m) {    max = m;  }  @Override  public boolean pass(Path path) {    if (path == null) {      return false;    }    return path.getNumOfNodes() == max;  }}
