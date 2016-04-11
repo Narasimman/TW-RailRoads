@@ -1,1 +1,1 @@
-package com.thoughtworks.railroad.graph;public class GraphFactory {  public static IGraph getEmptyGraph() {    return new DirectedGraph();  }}
+package com.thoughtworks.railroad.graph;public class GraphFactory {  public static IGraph getDirectedGraph() {    return new DirectedGraph();  }}

@@ -1,0 +1,1 @@
+package com.thoughtworks.railroad.exception;public class NoSuchPathException extends RuntimeException {  private static final long serialVersionUID = 1L;  public NoSuchPathException(String node) {    super("NO SUCH PATH");  }}
