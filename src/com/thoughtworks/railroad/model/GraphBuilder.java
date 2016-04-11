@@ -1,0 +1,1 @@
+package com.thoughtworks.railroad.model;public class GraphBuilder {  public static IGraph getDirectedGraph() {    return new DirectedGraph();  }}
