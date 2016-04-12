@@ -1,1 +1,1 @@
-package com.thoughtworks.railroad.model;import com.thoughtworks.railroad.model.graph.IGraph;public class GraphBuilder {  public static IGraph getDirectedGraph() {    return new DirectedGraph();  }}
+package com.thoughtworks.railroad.model;import com.thoughtworks.railroad.model.graph.IGraph;/** * Builder/Factory for the graph initialization Can be extended to different * types of graphs *  * @author Narasimman *  */public class GraphBuilder {  public static IGraph getDirectedGraph() {    return new DirectedGraph();  }}

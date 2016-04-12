@@ -1,1 +1,1 @@
-package com.thoughtworks.railroad.model.condition;import com.thoughtworks.railroad.model.Path;public interface Condition {  public boolean pass(Path path);}
+package com.thoughtworks.railroad.model.condition;import com.thoughtworks.railroad.model.Path;/** * Condition filter that can be used to query the graph. Implement this filter * and write the logic for passing the filter. *  * @author Narasimman *  */public interface Condition {  public boolean pass(Path path);}
