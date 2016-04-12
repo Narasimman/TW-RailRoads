@@ -7,4 +7,4 @@ Paths: MAX_STOPS , 3 ,C - C
 Paths: EXACT_STOPS , 4 , A-C 
 Shortest: A-C
 Shortest: B - B
-PATHS: MAX_DISTANCE , 30 , C- C
+Paths: MAX_DISTANCE , 30 , C- C
